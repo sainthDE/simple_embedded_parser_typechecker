@@ -23,7 +23,7 @@ EA ::= EA && F | F
 Final refactoring (unambiguous w/o left recursion):
 
 ```
-N   ::= 0 | 1 | 2 
+N   ::= 0 | 1 | 2
 B   ::= true | false
 V   ::= N | B
 F   ::= V | (EP)
