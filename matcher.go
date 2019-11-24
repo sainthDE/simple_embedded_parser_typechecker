@@ -217,7 +217,7 @@ func scan(s string) (string, int) {
 		case isSpace(s[0]):
 			s = s[1:len(s)]
 		default:
-			print("ERR ")
+			// print("ERR ")
 			return s[1:len(s)], ERR
 		}
 
